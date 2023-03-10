@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-cleaning
+basic_cleaning
 """
 import argparse
 import logging
@@ -27,7 +27,7 @@ def go(args):
 
 if __name__ == "__main__":
 
-    parser = argparse.ArgumentParser(description="This step cleans the data")
+    parser = argparse.ArgumentParser(description="basic_cleaning")
 
 
     parser.add_argument(
